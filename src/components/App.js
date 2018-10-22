@@ -1,11 +1,12 @@
 import React from 'react'
+import ProductContainer from '../containers/Product'
+import Search from '../containers/Search'
 
 const App = () => {
   return(
-    <div>
-      <h1>
-        Hello, World!
-      </h1>
+    <div className="app">
+      <Search />
+      <ProductContainer />
     </div>
   )
 }
