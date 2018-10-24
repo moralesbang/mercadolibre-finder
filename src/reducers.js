@@ -5,7 +5,7 @@ import {
 } from './actions'
 
 let initialProductsState = {
-  isFetching: true,
+  isFetching: false,
   items: []
 }
 

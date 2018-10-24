@@ -1,5 +1,30 @@
 // Variables
-$font-family-sans-serif: 'Work Sans', sans-serif;
+$font-family-sans-serif: 'Open Sans', sans-serif;
 
 // Imports
-@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Gaegu');
+
+// Styles
+
+input:focus { outline: none }
+
+#searchbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  input {
+    border-radius: 50px;
+    border: 2px solid $gray-700;
+    padding: .5rem 1rem;
+    width: 35rem;
+    
+    &::placeholder {
+      font-weight: 700;
+    }
+  }
+}
+
+.has-brand-font {
+  font-family: 'Gaegu', cursive
+}

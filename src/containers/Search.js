@@ -19,6 +19,10 @@ const Search = ({ dispatch }) => {
         }
       }
     >
+      <h1 className="has-brand-font">
+        Mercadolibre <b>Finder</b>
+      </h1>
+
       <input 
         type="text" 
         placeholder="What is you looking for?" 
