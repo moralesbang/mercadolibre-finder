@@ -25,7 +25,7 @@ const Search = ({ dispatch }) => {
 
       <input 
         type="text" 
-        placeholder="What is you looking for?" 
+        placeholder="¿Qué estás buscando?" 
         className="" 
         ref={node => input = node}
       />
